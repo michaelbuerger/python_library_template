@@ -1,13 +1,8 @@
-Useful commands:
+1. Run "make venv_full_setup" to setup Python environment and install dependencies
 
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install -r requirements.txt
+2. Make sure to rename my_library as appropriate (package name)
+   a. Reference: Update with matching name in pyproject.toml file
+   b. Reference: Update with matching name in pytest.ini file
 
-----------------------------------------------------------------------------------------------------------
-
-TODO when creating a new project to match this project structure:
-- Do not copy the .venv, rather create a new one and install appropriate packages from requirements.txt
-- Make sure to rename my_library as appropriate (package name)
-  - Reference 1: Update with matching name in pyproject.toml file
-  - Reference 2: Update with matching name in pytest.ini file
+3. Rename subdirectories as appropriate (subdir1 and subdir2 by default)
+   a. Reference (optional): Update with matching name in test_math1.py

@@ -1,6 +1,6 @@
 import pytest
 
-from sub_module_1.math1 import (
+from subdir1.math1 import (
     custom_power, custom_add
 )
 
