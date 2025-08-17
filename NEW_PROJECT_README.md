@@ -1,4 +1,4 @@
-1. Run "make venv_full_setup" to setup Python environment and install dependencies
+1. Run `make venv_full_setup` to setup Python environment and install dependencies
 
 2. Make sure to rename my_library as appropriate (package name)
    a. Reference: Update with matching name in pyproject.toml file
@@ -11,3 +11,4 @@
    a. `source .venv/bin/activate`
    b. `pip install [library]`
    c. requirements.txt is now updated!
+
