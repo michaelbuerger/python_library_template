@@ -6,3 +6,8 @@
 
 3. Rename subdirectories as appropriate (subdir1 and subdir2 by default)
    a. Reference (optional): Update with matching name in test_math1.py
+
+4. Add dependencies:
+   a. `source .venv/bin/activate`
+   b. `pip install [library]`
+   c. requirements.txt is now updated!
